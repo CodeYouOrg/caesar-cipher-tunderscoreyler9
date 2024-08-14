@@ -42,3 +42,10 @@ plain_text = input("Please enter a sentence: ")
 shift = 5
 encrypted_text = caesar_cipher(plain_text, shift)
 print(f"The encrypted sentence is: {encrypted_text}")
+
+#for char in phrase:
+    # if char in alphabet:
+    #     index = alphabet.find(char)
+    #     index = (index + shift) % 26
+    #     char = alphabet[index]
+    # encrypted_phrase += char
